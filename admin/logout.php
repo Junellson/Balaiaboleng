@@ -3,7 +3,7 @@ session_start();
 session_destroy();
 	echo '<script language="javascript">
 	alert("Anda Berhasil Logout");
-	window.location="index.php";
+	window.location="index.html";
 	</script>';
 
 ?>
