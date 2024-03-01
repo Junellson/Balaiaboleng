@@ -8,11 +8,11 @@ include "../../config/koneksi.php";
 $sesi_username    = isset($_SESSION['username']) ? $_SESSION['username'] : NULL;
 if ($sesi_username == NULL || empty($sesi_username)) {
     session_destroy();
-    header('Location:../login.php?status=Silahkan-Login');
+    header('Location:../login.html?status=Silahkan-Login');
 }
 if ($_SESSION['level'] != "admin") {
     session_destroy();
-    header('Location:../../login.php?status=Silahkan-Login-Kembali');
+    header('Location:../../login.html?status=Silahkan-Login-Kembali');
 }
 
 ?>
