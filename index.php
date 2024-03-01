@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Balai Aboleng</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css" />
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <style>
+    li {
+      list-style: none;
+      margin: 20px 0 20px 0;
+    }
+
+    a {
+      text-decoration: none;
+    }
+    body {
+      margin: 0px;
+  padding: 0px;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+    }
+    .sidebar {
+      width: 250px;
+      height: 100%;
+      position: relative;
+      margin-left: -300px;
+      transition: 0.4s;
+      overflow-y: scroll;
+    }
+
+    .active-main-content {
+      margin-left: 250px;
+    }
+
+    .active-sidebar {
+      margin-left: 0;
+    }
+
+    #main-content {
+      transition: 0.4s;
+    }
+  </style>
+</head>
+
+<body>
+
+  <nav class="navbar navbar-light bg-light justify-content-between fixed-top">
+    <a class="navbar-brand ml-3" href="#" id="button-toggle">
+      <img src="admin/assets/img/logo.png" width="60" height="60" alt="">
+    </a>
+    <a class="navbar-brand mr-3" href="#">
+      <img src="admin/assets/img/logo2.png" width="150" height="30" alt="">
+    </a>
+  </nav>
+  <div style="position:fixed;height:100%;" class="bg-dark">
+    <div class="sidebar p-4 bg-dark" id="sidebar">
+      <h4 class="mb-5 text-white">Menu Bar</h4>
+      <li>
+        <a class="nav-link scrollto text-white" href="#" id="home-toggle">Home</a>
+      </li>
+      <li>
+        <a class="nav-link scrollto text-white" href="#" id="ingredients-toggle">Ingredients</a>
+      </li>
+      <li>
+        <a class="nav-link scrollto text-white" href="#" id="menu-toggle">Menu</a>
+      </li>
+      <li style="margin-bottom:50px;">
+        <a class="nav-link scrollto text-white" href="#" id="contact-toggle">Contact</a>
+      </li>
+      <div style="margin-top:20px;">
+        <li></li>
+      </div>
+      <div style="bottom:0;position:fixed;">
+        <li>
+          <a class="text-white" href="admin/">
+            <i class="bi bi-box-arrow-in-right mr-2"></i>
+            Admin
+          </a>
+        </li>
+      </div>
+
+
+    </div>
+  </div>
+
+  <div id="main-content" style="margin-top:85px;">
+
+    <!-- Home Section -->
+    <section id="home">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-md-6">
+            <img src="./img/logo aboleng.png" class="img-fluid" alt="Balai Aboleng">
+          </div>
+
+          <div class="col-md-6" style="margin-top:100px;">
+            <h1>Balai Aboleng</h1>
+            <p>Balai Aboleng adalah warung yang menjual Aboleng. Aboleng terbuat dari tepung ketan yang dicampur sedikit air lalu
+              dibentuk bola-bola, direbus, dan disajikan dengan kuah manis. </p>
+            <p>Ukurannya bisa kecil atau besar, bisa diisi berbagai isian, nah isian Aboleng umumnya kacang tanah, kacang hijau dan
+              wijen hitam. Di berbagai daerah, isiannya disesuaikan dengan kebiasaan dan selera setempat.</p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+    <!-- END OF Home Section -->
+
+
+    <!--Ingredients Section -->
+    <section class="bg-light text-center">
+      <div class="container" id="Ingredients" >
+
+        <br><br>
+        <div class="col">
+          <h1 class="text-light-emphasis">Ingredients</h2>
+        </div>
+        <br>
+        <!-- ingredient aboleng -->
+        <div class="row d-flex">
+          <h3 class="text-black-50">Aboleng</h3> <br><br>
+          <div class="col-4">
+            <div class="card h-100">
+              <img src="./img/kacang tanah.png" class="card-img-top border-bottom" class="img-fluid" alt="...">
+              <div class="card-body">
+                <p class="card-text">Kacang Tanah</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-4">
+            <div class="card h-100">
+              <img src="./img/kacang hijau.png" class="card-img-top border-bottom" class="img-fluid" alt="...">
+              <div class="card-body">
+                <p class="card-text">Kacang Hijau</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-4">
+            <div class="card h-100">
+              <img src="./img/kacang wijen.png" class="card-img-top border-bottom" class="img-fluid" alt="...">
+              <div class="card-body">
+                <p class="card-text">Kacang Wijen</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <!-- end of Ingredient aboleng -->
+        <br>
+        <!-- Menu Soup -->
+        <div class="row d-flex">
+          <h3 class="text-black-50">Soup</h3> <br><br>
+          <div class="col-4">
+            <div class="card h-100">
+              <img src="./img/jahe.png" class="card-img-top border-bottom" class="img-fluid" alt="...">
+              <div class="card-body">
+                <p class="card-text">Jahe</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-4">
+            <div class="card h-100">
+              <img src="./img/pandan.png" class="card-img-top border-bottom" class="img-fluid" alt="...">
+              <div class="card-body">
+                <p class="card-text">Pandan</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-4">
+            <div class="card h-100">
+              <img src="./img/soya.png" class="card-img-top border-bottom" class="img-fluid" alt="...">
+              <div class="card-body">
+                <p class="card-text">Soya</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <!-- end of menu Soup -->
+      </div>
+    </section>
+    <!-- END OF Ingredients Section -->
+
+    <!-- ======= Menu Section ======= -->
+    <section class="menu bg-light text-center">
+      <div class="container" id="menu">
+        <br><br>
+        <div class="col" >
+          <h1 class="text-light-emphasis">Menu</h2>
+        </div>
+        <br>
+        <div class="row menu-container pb-5">
+
+          <div class="col-lg-6 menu-item filter-starters">
+            <img src="img/menu/Boleng Fam.png" class="menu-img" alt="">
+            <div class="menu-content">
+              <span>Boleng's Family</span>
+            </div>
+            <div class="menu-ingredients">
+              Ronde Isi 3 Pcs (Masing-masing rasa 1 pc) & 8 Ronde Kecil <br>
+              (3 Pcs Filling Rice Balls (1 pc of Every Flavors & 8 Mini Size Rice Balls))
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-starters">
+            <img src="img/menu/Boleng Kid1.png" class="menu-img" alt="">
+            <div class="menu-content">
+              <span>Boleng's Kid 1</span>
+            </div>
+            <div class="menu-ingredients">
+              Ronde Kecil Kering Tabur Kacang 28 Pcs <br>
+              (28 Pcs Dry Mini Rice Balls with Peanuts Powder)
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-starters">
+            <img src="img/menu/Boleng Kid2.png" class="menu-img" alt="">
+            <div class="menu-content">
+              <span>Boleng's Kid 2</span>
+            </div>
+            <div class="menu-ingredients">
+              Ronde Kecil Kuah 28 Pcs <br>
+              (28 Pcs Mini Size Rice Balls with Soup)
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-starters">
+            <img src="img/menu/Aboleng A.png" class="menu-img" alt="">
+            <div class="menu-content">
+              <span>Aboleng (A) 4 Pcs</span>
+            </div>
+            <div class="menu-ingredients">
+              Kacang Hijau / Kacang Tanah<br>
+              (Mung Beans / Peanuts)
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-starters">
+            <img src="img/menu/Aboleng B.png" class="menu-img" alt="">
+            <div class="menu-content">
+              <span>Aboleng (B) 4 Pcs</span>
+            </div>
+            <div class="menu-ingredients">
+              Wijen Hitam Semua<br>
+              (All Black Sesame)
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-starters">
+            <img src="img/menu/Aboleng C.png" class="menu-img" alt="">
+            <div class="menu-content">
+              <span>Aboleng (C) 4 Pcs</span>
+            </div>
+            <div class="menu-ingredients">
+              2 Pcs Wijen Hitam + 2 Pcs (Kacang Tanah / Kacang Hijau)<br>
+              (2 Pcs Black Sesame + 2 Pcs (Peanuts / Mung Beans))
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Menu Section -->
+
+    <br><br>
+    <section >
+      <div class="container" id="Contact">
+        <div class="row">
+
+          <div class="col">
+            <h1 class="text-light-emphasis text-center">Contact</h2>
+          </div>
+          <br><br><br><br>
+          <!-- Medsos -->
+          <div class="row d-flex">
+
+            <div class="col-4 d-flex justify-content-center">
+              <div class="contact">
+                <a href="http://wa.me/6281364437270" class="text-decoration-none text-reset">
+                  <img src="./img/whatsapp.png" style="height:auto;max-height:150px;" class="img-fluid" alt="...">
+                  <p class="text-center">Whatsapp</p>
+                </a>
+              </div>
+            </div>
+
+            <div class="col-4 d-flex justify-content-center">
+              <div class="contact">
+                <a href="https://www.facebook.com/balaiaboleng.id" class="text-decoration-none text-reset">
+                  <img src="./img/facebook.png" style="height:auto;max-height:150px;" class="img-fluid" alt="...">
+                  <p class="text-center">Facebook</p>
+                </a>
+              </div>
+            </div>
+
+            <div class="col-4 d-flex justify-content-center">
+              <div class="contact">
+                <a href="https://www.instagram.com/balaiaboleng.id/" class="text-decoration-none text-reset">
+                  <img src="./img/instagram.png" style="height:auto;max-height:150px;" class="img-fluid" alt="...">
+                  <p class="text-center">Instagram</p>
+                </a>
+              </div>
+            </div>
+
+            <div class="col-1"></div>
+            <div class="col-5 d-flex justify-content-center">
+              <div class="contact">
+                <a href="https://gofood.link/a/CdrcR4A" class="text-decoration-none text-reset">
+                  <img src="./img/gofood.png" style="height:auto;max-height:150px;" class="img-fluid" alt="...">
+                  <p class="text-center">Gofood</p>
+                </a>
+              </div>
+            </div>
+            <div class="col-5 d-flex justify-content-center">
+              <div class="contact">
+                <a href="https://food.grab.com/id/en/restaurant/balai-aboleng-batu-selicin-delivery/6-C23YBEKGKBWXVJ" class="text-decoration-none text-reset">
+                  <img src="./img/grabfood.png" style="height:auto;max-height:150px;" class="img-fluid" alt="...">
+                  <p class="text-center">Grabfood</p>
+                </a>
+              </div>
+            </div>
+            <div class="col-1"></div>
+
+          </div>
+          <!-- End Of Medsos -->
+        </div>
+
+      </div>
+    </section>
+
+    <section id="footer" class="bg-dark text-white">
+      <div class="container">
+        <div class="row gy-3">
+          <div class="col-lg-4 col-md-6 footer-links d-flex">
+            <i class="bi bi-geo-alt icon"></i>
+            <div style="margin-left:10px;">
+              <h4>Address</h4>
+              <p>
+                Akong Kopitiam, Ruko Penuin Centre, Blok B14-B15, Lubuk Baja, Batam
+              </p>
+            </div>
+
+          </div>
+
+          <div class="col-lg-4 col-md-6 footer-links d-flex">
+            <i class="bi bi-telephone icon"></i>
+            <div style="margin-left:10px;">
+              <h4>For Business</h4>
+              <p>
+                <strong>Phone:</strong>+62 812-7585-8384<br>
+                <strong>Email:</strong>balaiaboleng@gmail.com<br>
+              </p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 footer-links d-flex">
+            <i class="bi bi-clock icon"></i>
+            <div style="margin-left:10px;">
+              <h4>Opening Hours</h4>
+              <p>
+                <strong>Open Daily</strong> 11.00 - 23.00
+              </p>
+            </div>
+          </div>
+        </div>
+        <hr>
+        <div class="row text-center">
+
+          <p> &copy; 2023. <b>Balai Aboleng</b> All Rights Reserved.</p>
+
+        </div>
+      </div>
+    </section>
+  </div>
+
+
+
+  <script>
+    // event will be executed when the toggle-button is clicked
+    document.getElementById("button-toggle").addEventListener("click", function(e) {
+      e.preventDefault();
+
+      // when the button-toggle is clicked, it will add/remove the active-sidebar class
+      document.getElementById("sidebar").classList.toggle("active-sidebar");
+
+      // when the button-toggle is clicked, it will add/remove the active-main-content class
+      document.getElementById("main-content").classList.toggle("active-main-content");
+    });
+
+    // event will be executed when the toggle-button is clicked
+    document.getElementById("home-toggle").addEventListener("click", function(e) {
+      window.location.href="#home";
+      e.preventDefault();
+
+      // when the button-toggle is clicked, it will add/remove the active-sidebar class
+      document.getElementById("sidebar").classList.toggle("active-sidebar");
+
+      // when the button-toggle is clicked, it will add/remove the active-main-content class
+      document.getElementById("main-content").classList.toggle("active-main-content");
+      
+    });
+
+    // event will be executed when the toggle-button is clicked
+    document.getElementById("ingredients-toggle").addEventListener("click", function(e) {
+      window.location.href="#Ingredients";
+      e.preventDefault();
+
+      // when the button-toggle is clicked, it will add/remove the active-sidebar class
+      document.getElementById("sidebar").classList.toggle("active-sidebar");
+
+      // when the button-toggle is clicked, it will add/remove the active-main-content class
+      document.getElementById("main-content").classList.toggle("active-main-content");
+      
+    });
+
+    // event will be executed when the toggle-button is clicked
+    document.getElementById("menu-toggle").addEventListener("click", function(e) {
+      window.location.href="#menu";
+      e.preventDefault();
+
+      // when the button-toggle is clicked, it will add/remove the active-sidebar class
+      document.getElementById("sidebar").classList.toggle("active-sidebar");
+
+      // when the button-toggle is clicked, it will add/remove the active-main-content class
+      document.getElementById("main-content").classList.toggle("active-main-content");
+      
+    });
+
+    // event will be executed when the toggle-button is clicked
+    document.getElementById("contact-toggle").addEventListener("click", function(e) {
+      window.location.href="#Contact";
+      e.preventDefault();
+
+      // when the button-toggle is clicked, it will add/remove the active-sidebar class
+      document.getElementById("sidebar").classList.toggle("active-sidebar");
+
+      // when the button-toggle is clicked, it will add/remove the active-main-content class
+      document.getElementById("main-content").classList.toggle("active-main-content");
+      
+    });
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+
+</body>
+
+</html>

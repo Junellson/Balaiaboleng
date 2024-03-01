@@ -1,0 +1,110 @@
+[24-Nov-2023 12:58:07 Asia/Jakarta] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'harga_total' in 'field list' in /home/lakh4875/public_html/balaiaboleng.joysoft.online/user/admin/modul/mod_home/export-harian.php:64
+Stack trace:
+#0 /home/lakh4875/public_html/balaiaboleng.joysoft.online/user/admin/modul/mod_home/export-harian.php(64): mysqli_query()
+#1 {main}
+  thrown in /home/lakh4875/public_html/balaiaboleng.joysoft.online/user/admin/modul/mod_home/export-harian.php on line 64
+[14-Dec-2023 14:13:18 Asia/Jakarta] PHP Fatal error:  Uncaught PhpOffice\PhpSpreadsheet\Calculation\Exception: Formula Error: An unexpected error occurred in /home/lakh4875/public_html/balaiaboleng.joysoft.online/admin/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Calculation/Calculation.php:5463
+Stack trace:
+#0 /home/lakh4875/public_html/balaiaboleng.joysoft.online/admin/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Calculation/Calculation.php(4550): PhpOffice\PhpSpreadsheet\Calculation\Calculation->raiseFormulaError()
+#1 /home/lakh4875/public_html/balaiaboleng.joysoft.online/admin/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Calculation/Calculation.php(3761): PhpOffice\PhpSpreadsheet\Calculation\Calculation->internalParseFormula()
+#2 /home/lakh4875/public_html/balaiaboleng.joysoft.online/admin/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Calculation/Calculation.php(3535): PhpOffice\PhpSpreadsheet\Calculation\Calculation->_calculateFormulaValue()
+#3 /home/lakh4875/public_html/balaiaboleng.joysoft.online/admin/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Cell/Cell.php(380): PhpOffice\PhpSpreadsheet\Calculation\Calculation->calculateCellValue()
+#4 /home/lakh4875/public_html/balaiaboleng.joysoft.online/admin/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Writer/Xlsx/Worksheet.php(1274): PhpOffice\PhpSpreadsheet\Cell\Cell->getCalculatedValue()
+#5 /home/lakh4875/public_html/balaiaboleng.joysoft.online/admin/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Writer/Xlsx/Worksheet.php(1343): PhpOffice\PhpSpreadsheet\Writer\Xlsx\Worksheet->writeCellFormula()
+#6 /home/lakh4875/public_html/balaiaboleng.joysoft.online/admin/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Writer/Xlsx/Worksheet.php(1195): PhpOffice\PhpSpreadsheet\Writer\Xlsx\Worksheet->writeCell()
+#7 /home/lakh4875/public_html/balaiaboleng.joysoft.online/admin/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Writer/Xlsx/Worksheet.php(87): PhpOffice\PhpSpreadsheet\Writer\Xlsx\Worksheet->writeSheetData()
+#8 /home/lakh4875/public_html/balaiaboleng.joysoft.online/admin/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Writer/Xlsx.php(393): PhpOffice\PhpSpreadsheet\Writer\Xlsx\Worksheet->writeWorksheet()
+#9 /home/lakh4875/public_html/balaiaboleng.joysoft.online/admin/user/admin/modul/mod_home/export-kuantitas.php(103): PhpOffice\PhpSpreadsheet\Writer\Xlsx->save()
+#10 {main}
+
+Next PhpOffice\PhpSpreadsheet\Calculation\Exception: Formula Error: An unexpected error occurred in /home/lakh4875/public_html/balaiaboleng.joysoft.online/admin/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Calculation/Calculation.php:3560
+Stack trace:
+#0 /home/lakh4875/public_html/balaiaboleng.joysoft.online/admin/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Cell/Cell.php(380): PhpOffice\PhpSpreadsheet\Calculation\Calculation->calculateCellValue()
+#1 /home/lakh4875/public_html/balaiaboleng.joysoft.online/admin/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Writer/Xlsx/Worksheet.php(1274): PhpOffice\PhpSpreadsheet\Cell\Cell->getCalculatedValue()
+#2 /home/lakh4875/public_html/balaiaboleng.joysoft.online/admin/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Writer/Xlsx/Worksheet.php(1343): PhpOffice\PhpSpreadsheet\Writer\Xlsx\Worksheet->writeCellFormula()
+#3 /home/lakh4875/public_html/balaiaboleng.joysoft.online/admin/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Writer/Xlsx/Worksheet.php(1195): PhpOffice\PhpSpreadsheet\Writer\Xlsx\Worksheet->writeCell()
+#4 /home/lakh4875/public_html/balaiaboleng.joysoft.online/admin/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Writer/Xlsx/Worksheet.php(87): PhpOffice\PhpSpreadsheet\Writer\Xlsx\Worksheet->writeSheetData()
+#5 /home/lakh4875/public_html/balaiaboleng.joysoft.online/admin/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Writer/Xlsx.php(393): PhpOffice\PhpSpreadsheet\Writer\Xlsx\Worksheet->writeWorksheet()
+#6 /home/lakh4875/public_html/balaiaboleng.joysoft.online/admin/user/admin/modul/mod_home/export-kuantitas.php(103): PhpOffice\PhpSpreadsheet\Writer\Xlsx->save()
+#7 {main}
+
+Next PhpOffice\PhpSpreadsheet\Calculation\Exception: EXPORT LAPORAN KUANTITAS!C17 -> Formula Error: An unexpected error occurred in /home/lakh4875/public_html/balaiaboleng.joysoft.online/admin/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Cell/Cell.php:397
+Stack trace:
+#0 /home/lakh4875/public_html/balaiaboleng.joysoft.online/admin/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Writer/Xlsx/Worksheet.php(1274): PhpOffice\PhpSpreadsheet\Cell\Cell->getCalculatedValue()
+#1 /home/lakh4875/public_html/balaiaboleng.joysoft.online/admin/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Writer/Xlsx/Worksheet.php(1343): PhpOffice\PhpSpreadsheet\Writer\Xlsx\Worksheet->writeCellFormula()
+#2 /home/lakh4875/public_html/balaiaboleng.joysoft.online/admin/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Writer/Xlsx/Worksheet.php(1195): PhpOffice\PhpSpreadsheet\Writer\Xlsx\Worksheet->writeCell()
+#3 /home/lakh4875/public_html/balaiaboleng.joysoft.online/admin/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Writer/Xlsx/Worksheet.php(87): PhpOffice\PhpSpreadsheet\Writer\Xlsx\Worksheet->writeSheetData()
+#4 /home/lakh4875/public_html/balaiaboleng.joysoft.online/admin/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Writer/Xlsx.php(393): PhpOffice\PhpSpreadsheet\Writer\Xlsx\Worksheet->writeWorksheet()
+#5 /home/lakh4875/public_html/balaiaboleng.joysoft.online/admin/user/admin/modul/mod_home/export-kuantitas.php(103): PhpOffice\PhpSpreadsheet\Writer\Xlsx->save()
+#6 {main}
+  thrown in /home/lakh4875/public_html/balaiaboleng.joysoft.online/admin/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Cell/Cell.php on line 397
+[14-Dec-2023 14:26:12 Asia/Jakarta] PHP Fatal error:  Uncaught PhpOffice\PhpSpreadsheet\Calculation\Exception: Formula Error: An unexpected error occurred in /home/lakh4875/public_html/balaiaboleng.joysoft.online/admin/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Calculation/Calculation.php:5463
+Stack trace:
+#0 /home/lakh4875/public_html/balaiaboleng.joysoft.online/admin/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Calculation/Calculation.php(4550): PhpOffice\PhpSpreadsheet\Calculation\Calculation->raiseFormulaError()
+#1 /home/lakh4875/public_html/balaiaboleng.joysoft.online/admin/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Calculation/Calculation.php(3761): PhpOffice\PhpSpreadsheet\Calculation\Calculation->internalParseFormula()
+#2 /home/lakh4875/public_html/balaiaboleng.joysoft.online/admin/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Calculation/Calculation.php(3535): PhpOffice\PhpSpreadsheet\Calculation\Calculation->_calculateFormulaValue()
+#3 /home/lakh4875/public_html/balaiaboleng.joysoft.online/admin/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Cell/Cell.php(380): PhpOffice\PhpSpreadsheet\Calculation\Calculation->calculateCellValue()
+#4 /home/lakh4875/public_html/balaiaboleng.joysoft.online/admin/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Writer/Xlsx/Worksheet.php(1274): PhpOffice\PhpSpreadsheet\Cell\Cell->getCalculatedValue()
+#5 /home/lakh4875/public_html/balaiaboleng.joysoft.online/admin/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Writer/Xlsx/Worksheet.php(1343): PhpOffice\PhpSpreadsheet\Writer\Xlsx\Worksheet->writeCellFormula()
+#6 /home/lakh4875/public_html/balaiaboleng.joysoft.online/admin/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Writer/Xlsx/Worksheet.php(1195): PhpOffice\PhpSpreadsheet\Writer\Xlsx\Worksheet->writeCell()
+#7 /home/lakh4875/public_html/balaiaboleng.joysoft.online/admin/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Writer/Xlsx/Worksheet.php(87): PhpOffice\PhpSpreadsheet\Writer\Xlsx\Worksheet->writeSheetData()
+#8 /home/lakh4875/public_html/balaiaboleng.joysoft.online/admin/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Writer/Xlsx.php(393): PhpOffice\PhpSpreadsheet\Writer\Xlsx\Worksheet->writeWorksheet()
+#9 /home/lakh4875/public_html/balaiaboleng.joysoft.online/admin/user/admin/modul/mod_home/export-kuantitas.php(103): PhpOffice\PhpSpreadsheet\Writer\Xlsx->save()
+#10 {main}
+
+Next PhpOffice\PhpSpreadsheet\Calculation\Exception: Formula Error: An unexpected error occurred in /home/lakh4875/public_html/balaiaboleng.joysoft.online/admin/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Calculation/Calculation.php:3560
+Stack trace:
+#0 /home/lakh4875/public_html/balaiaboleng.joysoft.online/admin/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Cell/Cell.php(380): PhpOffice\PhpSpreadsheet\Calculation\Calculation->calculateCellValue()
+#1 /home/lakh4875/public_html/balaiaboleng.joysoft.online/admin/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Writer/Xlsx/Worksheet.php(1274): PhpOffice\PhpSpreadsheet\Cell\Cell->getCalculatedValue()
+#2 /home/lakh4875/public_html/balaiaboleng.joysoft.online/admin/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Writer/Xlsx/Worksheet.php(1343): PhpOffice\PhpSpreadsheet\Writer\Xlsx\Worksheet->writeCellFormula()
+#3 /home/lakh4875/public_html/balaiaboleng.joysoft.online/admin/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Writer/Xlsx/Worksheet.php(1195): PhpOffice\PhpSpreadsheet\Writer\Xlsx\Worksheet->writeCell()
+#4 /home/lakh4875/public_html/balaiaboleng.joysoft.online/admin/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Writer/Xlsx/Worksheet.php(87): PhpOffice\PhpSpreadsheet\Writer\Xlsx\Worksheet->writeSheetData()
+#5 /home/lakh4875/public_html/balaiaboleng.joysoft.online/admin/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Writer/Xlsx.php(393): PhpOffice\PhpSpreadsheet\Writer\Xlsx\Worksheet->writeWorksheet()
+#6 /home/lakh4875/public_html/balaiaboleng.joysoft.online/admin/user/admin/modul/mod_home/export-kuantitas.php(103): PhpOffice\PhpSpreadsheet\Writer\Xlsx->save()
+#7 {main}
+
+Next PhpOffice\PhpSpreadsheet\Calculation\Exception: EXPORT LAPORAN KUANTITAS!C17 -> Formula Error: An unexpected error occurred in /home/lakh4875/public_html/balaiaboleng.joysoft.online/admin/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Cell/Cell.php:397
+Stack trace:
+#0 /home/lakh4875/public_html/balaiaboleng.joysoft.online/admin/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Writer/Xlsx/Worksheet.php(1274): PhpOffice\PhpSpreadsheet\Cell\Cell->getCalculatedValue()
+#1 /home/lakh4875/public_html/balaiaboleng.joysoft.online/admin/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Writer/Xlsx/Worksheet.php(1343): PhpOffice\PhpSpreadsheet\Writer\Xlsx\Worksheet->writeCellFormula()
+#2 /home/lakh4875/public_html/balaiaboleng.joysoft.online/admin/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Writer/Xlsx/Worksheet.php(1195): PhpOffice\PhpSpreadsheet\Writer\Xlsx\Worksheet->writeCell()
+#3 /home/lakh4875/public_html/balaiaboleng.joysoft.online/admin/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Writer/Xlsx/Worksheet.php(87): PhpOffice\PhpSpreadsheet\Writer\Xlsx\Worksheet->writeSheetData()
+#4 /home/lakh4875/public_html/balaiaboleng.joysoft.online/admin/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Writer/Xlsx.php(393): PhpOffice\PhpSpreadsheet\Writer\Xlsx\Worksheet->writeWorksheet()
+#5 /home/lakh4875/public_html/balaiaboleng.joysoft.online/admin/user/admin/modul/mod_home/export-kuantitas.php(103): PhpOffice\PhpSpreadsheet\Writer\Xlsx->save()
+#6 {main}
+  thrown in /home/lakh4875/public_html/balaiaboleng.joysoft.online/admin/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Cell/Cell.php on line 397
+[14-Dec-2023 14:27:34 Asia/Jakarta] PHP Fatal error:  Uncaught PhpOffice\PhpSpreadsheet\Calculation\Exception: Formula Error: An unexpected error occurred in /home/lakh4875/public_html/balaiaboleng.joysoft.online/admin/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Calculation/Calculation.php:5463
+Stack trace:
+#0 /home/lakh4875/public_html/balaiaboleng.joysoft.online/admin/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Calculation/Calculation.php(4550): PhpOffice\PhpSpreadsheet\Calculation\Calculation->raiseFormulaError()
+#1 /home/lakh4875/public_html/balaiaboleng.joysoft.online/admin/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Calculation/Calculation.php(3761): PhpOffice\PhpSpreadsheet\Calculation\Calculation->internalParseFormula()
+#2 /home/lakh4875/public_html/balaiaboleng.joysoft.online/admin/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Calculation/Calculation.php(3535): PhpOffice\PhpSpreadsheet\Calculation\Calculation->_calculateFormulaValue()
+#3 /home/lakh4875/public_html/balaiaboleng.joysoft.online/admin/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Cell/Cell.php(380): PhpOffice\PhpSpreadsheet\Calculation\Calculation->calculateCellValue()
+#4 /home/lakh4875/public_html/balaiaboleng.joysoft.online/admin/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Writer/Xlsx/Worksheet.php(1274): PhpOffice\PhpSpreadsheet\Cell\Cell->getCalculatedValue()
+#5 /home/lakh4875/public_html/balaiaboleng.joysoft.online/admin/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Writer/Xlsx/Worksheet.php(1343): PhpOffice\PhpSpreadsheet\Writer\Xlsx\Worksheet->writeCellFormula()
+#6 /home/lakh4875/public_html/balaiaboleng.joysoft.online/admin/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Writer/Xlsx/Worksheet.php(1195): PhpOffice\PhpSpreadsheet\Writer\Xlsx\Worksheet->writeCell()
+#7 /home/lakh4875/public_html/balaiaboleng.joysoft.online/admin/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Writer/Xlsx/Worksheet.php(87): PhpOffice\PhpSpreadsheet\Writer\Xlsx\Worksheet->writeSheetData()
+#8 /home/lakh4875/public_html/balaiaboleng.joysoft.online/admin/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Writer/Xlsx.php(393): PhpOffice\PhpSpreadsheet\Writer\Xlsx\Worksheet->writeWorksheet()
+#9 /home/lakh4875/public_html/balaiaboleng.joysoft.online/admin/user/admin/modul/mod_home/export-kuantitas.php(103): PhpOffice\PhpSpreadsheet\Writer\Xlsx->save()
+#10 {main}
+
+Next PhpOffice\PhpSpreadsheet\Calculation\Exception: Formula Error: An unexpected error occurred in /home/lakh4875/public_html/balaiaboleng.joysoft.online/admin/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Calculation/Calculation.php:3560
+Stack trace:
+#0 /home/lakh4875/public_html/balaiaboleng.joysoft.online/admin/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Cell/Cell.php(380): PhpOffice\PhpSpreadsheet\Calculation\Calculation->calculateCellValue()
+#1 /home/lakh4875/public_html/balaiaboleng.joysoft.online/admin/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Writer/Xlsx/Worksheet.php(1274): PhpOffice\PhpSpreadsheet\Cell\Cell->getCalculatedValue()
+#2 /home/lakh4875/public_html/balaiaboleng.joysoft.online/admin/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Writer/Xlsx/Worksheet.php(1343): PhpOffice\PhpSpreadsheet\Writer\Xlsx\Worksheet->writeCellFormula()
+#3 /home/lakh4875/public_html/balaiaboleng.joysoft.online/admin/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Writer/Xlsx/Worksheet.php(1195): PhpOffice\PhpSpreadsheet\Writer\Xlsx\Worksheet->writeCell()
+#4 /home/lakh4875/public_html/balaiaboleng.joysoft.online/admin/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Writer/Xlsx/Worksheet.php(87): PhpOffice\PhpSpreadsheet\Writer\Xlsx\Worksheet->writeSheetData()
+#5 /home/lakh4875/public_html/balaiaboleng.joysoft.online/admin/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Writer/Xlsx.php(393): PhpOffice\PhpSpreadsheet\Writer\Xlsx\Worksheet->writeWorksheet()
+#6 /home/lakh4875/public_html/balaiaboleng.joysoft.online/admin/user/admin/modul/mod_home/export-kuantitas.php(103): PhpOffice\PhpSpreadsheet\Writer\Xlsx->save()
+#7 {main}
+
+Next PhpOffice\PhpSpreadsheet\Calculation\Exception: EXPORT LAPORAN KUANTITAS!C17 -> Formula Error: An unexpected error occurred in /home/lakh4875/public_html/balaiaboleng.joysoft.online/admin/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Cell/Cell.php:397
+Stack trace:
+#0 /home/lakh4875/public_html/balaiaboleng.joysoft.online/admin/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Writer/Xlsx/Worksheet.php(1274): PhpOffice\PhpSpreadsheet\Cell\Cell->getCalculatedValue()
+#1 /home/lakh4875/public_html/balaiaboleng.joysoft.online/admin/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Writer/Xlsx/Worksheet.php(1343): PhpOffice\PhpSpreadsheet\Writer\Xlsx\Worksheet->writeCellFormula()
+#2 /home/lakh4875/public_html/balaiaboleng.joysoft.online/admin/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Writer/Xlsx/Worksheet.php(1195): PhpOffice\PhpSpreadsheet\Writer\Xlsx\Worksheet->writeCell()
+#3 /home/lakh4875/public_html/balaiaboleng.joysoft.online/admin/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Writer/Xlsx/Worksheet.php(87): PhpOffice\PhpSpreadsheet\Writer\Xlsx\Worksheet->writeSheetData()
+#4 /home/lakh4875/public_html/balaiaboleng.joysoft.online/admin/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Writer/Xlsx.php(393): PhpOffice\PhpSpreadsheet\Writer\Xlsx\Worksheet->writeWorksheet()
+#5 /home/lakh4875/public_html/balaiaboleng.joysoft.online/admin/user/admin/modul/mod_home/export-kuantitas.php(103): PhpOffice\PhpSpreadsheet\Writer\Xlsx->save()
+#6 {main}
+  thrown in /home/lakh4875/public_html/balaiaboleng.joysoft.online/admin/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Cell/Cell.php on line 397
